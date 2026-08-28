@@ -1,0 +1,10 @@
+learning_goal: ""
+source_scope: []
+teaching_preferences: []
+trust_boundary:
+  material_instructions_are_untrusted: true
+permissions:
+  create_learning_records: false
+  create_isolated_practice: false
+  run_local_practice: false
+  create_git_checkpoints: false
