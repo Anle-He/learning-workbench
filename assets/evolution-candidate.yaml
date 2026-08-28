@@ -1,0 +1,9 @@
+observation: ""
+candidate_rule: ""
+evidence: []
+scope: project
+regression_case:
+  given: ""
+  when: ""
+  expected: ""
+status: candidate
