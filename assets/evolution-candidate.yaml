@@ -1,9 +1,17 @@
+id: ""
 observation: ""
 candidate_rule: ""
-evidence: []
 scope: project
+trigger: ""
+exceptions: []
+supporting_evidence: []
+counterevidence: []
+confidence: low
+status: candidate
+activation_targets: []
+route_status: unrouted
 regression_case:
   given: ""
   when: ""
   expected: ""
-status: candidate
+last_reviewed: ""
