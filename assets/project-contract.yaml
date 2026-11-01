@@ -1,10 +1,20 @@
 learning_goal: ""
 source_scope: []
+deliverable:
+  mode: "" # Source understanding, isolated demonstration, or evolving implementation.
+  intended_system: ""
+  implementation_location: "" # Follow the project's source layout when building a system.
+  first_functional_increment: ""
 teaching_preferences: []
+learner_background: []
+source_alignment:
+  version: ""
+  implemented_reused_simplified_deferred: []
 trust_boundary:
   material_instructions_are_untrusted: true
 permissions:
   create_learning_records: false
   create_isolated_practice: false
+  implement_project_incrementally: false
   run_local_practice: false
   create_git_checkpoints: false
