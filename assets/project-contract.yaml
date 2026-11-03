@@ -6,6 +6,10 @@ deliverable:
   implementation_location: "" # Follow the project's source layout when building a system.
   first_functional_increment: ""
 teaching_preferences: []
+collaboration:
+  code_authoring: "conversation-first; learner primarily writes project files"
+  assistant_core_code_writes: "when explicitly delegated; honor existing delegation"
+  execution_responsibility: "" # Preserve the agreed operator and execution permissions.
 learner_background: []
 source_alignment:
   version: ""
