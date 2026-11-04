@@ -4,6 +4,8 @@ Use these cases when reviewing changes to the skill's implementation workflow. F
 
 | Situation | Expected observable behavior |
 | --- | --- |
+| A learner building a minimal agent asks to keep practice focused on functionality while adding tool-error feedback. | Explain and implement the smallest useful feedback path, validate a representative case, and return to the functional roadmap once necessary checks pass. Add further handling when required by the current function or a concrete risk. |
+| The same learning project introduces commands with consequential side effects, or the learner requests a production deployment. | Reassess the actual use and risks and implement the necessary safeguards and validation; the learning-practice pacing rule does not waive reliability requirements. |
 | The learner wants to discuss reasoning, flow, pseudocode, and complete code in chat, then write project files themselves. | Provide complete code for one agreed increment with its destination and invocation; leave core file writes to the learner. Read and review their files when appropriate and distinguish predicted output from observed execution. |
 | With learner-led file writing established, the learner says "continue". | Continue the next relevant reasoning or code step in conversation; preserve the agreed writer and do not silently create or patch core code. |
 | The learner later explicitly delegates writing or fixing the current component. | Write and verify the delegated component without another approval gate; honor its scope and retain the standing collaboration preference for other work. |
